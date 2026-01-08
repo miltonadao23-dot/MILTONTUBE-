@@ -18,7 +18,7 @@
   }
   #texto{
     font-size: 24px;
-    color:Blue;   
+    color:Tomato;   
     
   }
     body {
@@ -29,8 +29,8 @@
     }
 
     .dark-mode {
-      background-color: #121212;
-      color: white;
+      background-color: #333;
+      color: #115;
     }
 
     button {
@@ -79,33 +79,70 @@
         max-width: 100%;
       }
     }
+      body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .footer-container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    .footer-links a {
+      color: #00aced;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-social img {
+      width: 24px;
+      margin: 0 5px;
+      vertical-align: middle;
+    }
+
+    @media (max-width: 600px) {
+      .footer-links, .footer-social {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  
   </style>
 </head>
 <body>
 
-  </style>
-</head>
-<body> 
+  
   <header>
   <button onclick="alternarModo()">Trocar Modo</button><br>
  
   <h1 id="texto">BEM VINDO AO MILTONTUBE!</h1>
     <p><b> Aqui a diversão é garantida! Assiste os vídeos mais engraçados, curte os melhores animes e ouve músicas que animam qualquer dia. Tudo isso num só lugar, feito por Milton De Oliveira para ti!</b></p>
   <h2></h2>
-  <img src="Foto1.jpg"
-    alt="Foto"
-    width="300">
+  <a href="https://ibb.co/qLYZYxJT"><img src="https://i.ibb.co/7xt9tbks/20260108-121925-M.png" alt="20260108-121925-M" border="0" width="300"></a>
   </header>
   </style> 
   <div class="container">
   <div class="box">VODEOS ENGRAÇADOS→<a href="LISTA-DE-VIDEOS-ENGRAÇADO.html">Clica Aqui</a></div>
-    
-    
+    <br>
   
   <div class="box">ANIMES→<a href="LISTA-DE-ANIMES.html">Clica Aqui</a></div>
    
-  
-  <div class="box">MUSICAS-3→</div>
+  <br>
+  <div class="box">MUSICAS→<a href="LISTA-DE-MÚSICAS.html">Clica Aqui</a></div>
    
   </div>
      <script>
@@ -113,8 +150,35 @@
       document.body.classList.toggle("dark-mode");
     }
   </script>
-    
-   
+  <br><br> <br>  <br>  <br> <br> <br>   <br> <br> <br> <br>   <br> <br><br><br><br> <br><br> <br><br> <br> <br><br>
+  
+   <footer>
+    <div class="footer-container">
+      <p>&copy; 2026 Site MILTONTUBE - Todos os direitos reservados.</p>
+
+      <div class="footer-links">
+        <a href="http://www.cheffmilton54@gmail.com">G-mail</a>
+        
+        Conctato-<a> 997452915</a>
+      </div>
+
+      <div class="footer-social">
+        <a href="https://www.facebook.com/profile.php?id=61585896428778">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/miltondeoliveira23?igsh=Nzl6Z2VzcXlnMm50">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+        </a>
+        <a href="https://www.youtube.com/@MiltonAdao-kc2zj">
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
+        </a>
+         
+        </a>
+      </div>
+
+      <p>Feito com ❤️ por Milton De Oliveira</p>
+    </div>
+  </footer>
 </body>
 
 

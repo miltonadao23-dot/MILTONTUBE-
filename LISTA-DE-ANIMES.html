@@ -1,158 +1,63 @@
 <!DOCTYPE html>
-<html> 
+<html lang="pt"> 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">,
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Site de vídeos engraçados!">
   <meta name="keywords" content="comédia, felicidade, vídeos engraçados">
   <meta name="author" content="Milton De Oliveira">
-  <meta name="google-adsense-account" content="ca-pub-4454213174891322">
   <title>LISTA DE ANIMES</title>
   
-  <style>
-  .destaque{
-    color:white;
-    background-color:green;
-    padding: 10px;
-  }
-  #texto{
-    font-size: 24px;
-    color:Red;   
-    
-  }
-    body {
-      background-color: white;
-      color: black;
-      transition: 0.3s;
-      font-family: Arial;
-    }
-
-    .dark-mode {
-      background-color:#333 ;
-      color: #115;
-    }
-
-    button {
-     position: absolute;
-      top:20px;
-      right: 20px;
-      padding: 8px 16px
-      cursor: pointer;
-    }
-  body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 1em;
-    }
-
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 10px;
-      gap: 10px;
-      justify-content: center;
-    }
-
-    .box {
-      background-color: #f2f2f2;
-      padding: 20px;
-      flex: 1 1 300px;
-      max-width: 400px;
-      border-radius: 5px;
-      box-shadow: 0 0 5px gray;
-    }
-
-    @media (max-width: 600px) {
-      header {
-        font-size: 16px;
-      }
-
-      .box {
-        max-width: 100%;
-      }
-    }
-  body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    footer {
-      background-color: #222;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-    }
-
-    .footer-container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 0 20px;
-    }
-
-    .footer-links a {
-      color: #00aced;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-
-    .footer-links a:hover {
-      text-decoration: underline;
-    }
-
-    .footer-social img {
-      width: 24px;
-      margin: 0 5px;
-      vertical-align: middle;
-    }
-
-    @media (max-width: 600px) {
-      .footer-links, .footer-social {
-        display: block;
-        margin: 10px 0;
-      }
-    }
-  </style>
-</head>
-<body>
-
-  </style>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="Novo.css">
 </head>
 <body> 
+    <!-- SIDEBAR -->
+  <nav id="menuLateral" class="menu">
+    <button onclick="fecharMenu()">✖ Fechar</button>
+    <a href="index.html">Início</a>
+    <a href="LISTA-DE-VIDEOS-ENGRAÇADO.html">Vídeos</a>
+    <a href="LISTA-DE-ANIMES.html">Animes</a>
+    <a href="LISTA-DE-MÚSICAS.html">Músicas</a>
+  </nav>
+  
   <header>
-  <button onclick="alternarModo()">Trocar Modo</button><br>
+    
+    
+    <div class="MB">
+      <div onclick="abrirMenu()" id="openBtn">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    
+  </div>
+      
+    
+ <button  onclick="alternarModo()">🌙 Modo</button>
+      </div>
  
-  <h1 id="texto"> 🎌 ANIMES</h1>
-    <p><b>A tua dose de emoção, ação e aventura! 
-Bem-vindo ao mundo dos animes! Se curtes histórias épicas, personagens carismáticos e batalhas incríveis, estás no lugar certo. Aqui vais encontrar desde clássicos até os lançamentos mais esperados. Prepara-te para maratonar!
+  <h1 > 🎌 ANIMES</h1>
+    <p><b>Bem-vindo ao mundo dos animes!
  </b></p>
-  <h2></h2>
-  <a href="https://ibb.co/GvgKPTPf"><img src="https://i.ibb.co/4ZB6NdNw/740446.jpg" alt="740446" border="0"width="300"></a>
+ 
+  <a href="https://ibb.co/GvgKPTPf"><img src="https://i.ibb.co/4ZB6NdNw/740446.jpg"style="width: 250px; 
+            height: 250px; 
+            border-radius: 50%; 
+            object-fit: cover;" alt="740446" ></a>
   </header>
-  </style> 
+      <main class="container">
   <div class="container">
     <br>
   <div class="box">Recorde Ragnarok TP1<a href="https://miltonadao23.wistia.com/folders/2afap4w8qh">Clica Aqui</a></div>
-    <br>
-  
     
   <div class="box">Black Clover TP1→<a href="https://mega.nz/folder/aM9UUYZY#9fG4KvWAMSjf7PVyVMGvKA">Clica Aqui</a></div>
     
   </div>
+      </main>
+ 
   
-     <script>
-    function alternarModo() {
-      document.body.classList.toggle("dark-mode");
-    }
-  </script>
   <br>
   <br>
   <br>
@@ -176,36 +81,35 @@ Bem-vindo ao mundo dos animes! Se curtes histórias épicas, personagens carism�
   <br>
   <br>
   <br>
-        <footer>
+   <!-- FOOTER -->
+  <footer>
     <div class="footer-container">
-      <p>&copy; 2026 Site MILTONTUBE - Todos os direitos reservados.</p>
+
+      <p>&copy; 2026 MILTONTUBE - Todos os direitos reservados.</p>
 
       <div class="footer-links">
-        <a href="index.html">Início</a>
-        <a href="LISTA-DE-VIDEOS-ENGRAÇADO.html">Vídeos Engraçados</a>
-  
-        <a href="LISTA-DE-MÚSICAS.html">Músicas</a>
-       
+        <a href="mailto:cheffmilton54@gmail.com">G-mail</a>
+        <p>Contato: 997452915</p>
       </div>
 
       <div class="footer-social">
         <a href="https://www.facebook.com/profile.php?id=61585896428778">
-          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
         </a>
-        <a href="https://www.instagram.com/miltondeoliveira23?igsh=Nzl6Z2VzcXlnMm50">
-          <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+
+        <a href="https://www.instagram.com/miltondeoliveira23">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png">
         </a>
+
         <a href="https://www.youtube.com/@MiltonAdao-kc2zj">
-          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
-        </a>
-         
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png">
         </a>
       </div>
 
-      <p>Feito com ❤️ por Milton De Oliveira</p>
+      <p>Feito com ❤️ por <span class="span">Milton De Oliveira</span></p>
     </div>
   </footer>
+    
+<script src="script.js"></script>
 </body>
-
-
 </html>

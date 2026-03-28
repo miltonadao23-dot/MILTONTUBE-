@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html> 
+<html lang="pt"> 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,189 +7,93 @@
   <meta name="description" content="Site de vídeos engraçados!">
   <meta name="keywords" content="comédia, felicidade, vídeos engraçados">
   <meta name="author" content="Milton De Oliveira">
-  <meta name="google-adsense-account" content="ca-pub-4454213174891322">
+
   <title>LISTA DE MÚSICAS</title>
+  <link rel="stylesheet" href="style.css">
   
-  <style>
-  .destaque{
-    color:white;
-    background-color:green;
-    padding: 10px;
-  }
-  #texto{
-    font-size: 24px;
-    color:Green;   
-    
-  }
-    body {
-      background-color: white;
-      color: black;
-      transition: 0.3s;
-      font-family: Arial;
-    }
-
-    .dark-mode {
-      background-color: #333;
-      color: #115;
-    }
-
-    button {
-     position: absolute;
-      top:20px;
-      right: 20px;
-      padding: 8px 16px
-      cursor: pointer;
-    }
-  body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 1em;
-    }
-
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 10px;
-      gap: 10px;
-      justify-content: center;
-    }
-
-    .box {
-      background-color: #f2f2f2;
-      padding: 20px;
-      flex: 1 1 300px;
-      max-width: 400px;
-      border-radius: 5px;
-      box-shadow: 0 0 5px gray;
-    }
-
-    @media (max-width: 600px) {
-      header {
-        font-size: 16px;
-      }
-
-      .box {
-        max-width: 100%;
-      }
-    }
-  body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    footer {
-      background-color: #222;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-    }
-
-    .footer-container {
-      max-width: 1000px;
-      margin: auto;
-      padding: 0 20px;
-    }
-
-    .footer-links a {
-      color: #00aced;
-      text-decoration: none;
-      margin: 0 10px;
-    }
-
-    .footer-links a:hover {
-      text-decoration: underline;
-    }
-
-    .footer-social img {
-      width: 24px;
-      margin: 0 5px;
-      vertical-align: middle;
-    }
-
-    @media (max-width: 600px) {
-      .footer-links, .footer-social {
-        display: block;
-        margin: 10px 0;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="Novo.css">
 </head>
-<body>
 
-  </style>
-</head>
+  
+
+
+ <!-- ... (head igual) ... -->
 <body> 
+  <!-- Nav movida para dentro do body -->
+  <nav id="menuLateral" class="menu">
+    <button onclick="fecharMenu()">✖ Fechar</button>
+    <a href="index.html">Início</a>
+    <a href="LISTA-DE-VIDEOS-ENGRAÇADO.html">Vídeos</a>
+    <a href="LISTA-DE-ANIMES.html">Animes</a>
+    <a href="LISTA-DE-MÚSICAS.html">Músicas</a>
+  </nav>
+
   <header>
-  <button onclick="alternarModo()">Trocar Modo</button><br>
+    <div class="MB">
+      <div onclick="abrirMenu()" id="openBtn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg> <!-- SVG FECHADO AQUI -->
+      </div>
+      <button onclick="alternarModo()">🌙 Modo</button>
+    </div>
  
-  <h1 id="texto">🎶 MÚSICAS</h1>
-    <p><b>
-Aqui a música nunca para! Esta seção é dedicada aos melhores hits de todos os estilos: kizomba, rap, afro, pop, gospel e muito mais. Aumenta o volume, escolhe a tua faixa favorita e curte o som!
- </b></p>
-  <h2></h2>
-    <a href="https://ibb.co/m5bkD8c6"><img src="https://i.ibb.co/Sw5bsr3R/20260108-122915.jpg" alt="20260108-122915" border="0"width="300"></a>
- 
+    <h1> 🎶 MÚSICAS</h1>
+    <p><b>Aqui a música nunca para!</b></p>
+    <a href="https://ibb.co/m5bkD8c6"><img src="https://i.ibb.co/Sw5bsr3R/20260108-122915.jpg"style="width: 250px; 
+            height: 250px; 
+            border-radius: 50%; 
+            object-fit: cover;" alt="20260108-122915"></a>
   </header>
-  </style> 
-  <div class="container">
-    <br>
-  <div class="box">Figa de Guiné→<a href="https://mega.nz/file/XF9hVZDY#NOFDEIyZc1emsGguqA1DpMXG7dq4lyIXIJjrvIx_p-I">Clica Aqui</a></div>
-    <br>
-  <div class="box">Animal-Pródigio And Suaríto→<a href="https://mega.nz/file/ORF3mDQD#NIoY7zmHPFZvWibN667ZqJyrUwnjXUACTODtWaLWbKk">Clica aqui</a></div>
-   
-    <br>
-  <div class="box">Hit do Vpn trap→<a href="https://mega.nz/file/7cFHWS6Y#pQn0LXlW-LGOT8QrIqjHbLWm3N7iQnvrkkhgHWsGMwY">Clica Aqui</a></div>
-  <br>
-<div class="box">Sad Funk→<a href="https://mega.nz/file/LIEQAQqT#Q9lD7Kwu69FKsjCQbzukHo0y3rZSfst5hS8faBhtAZw">CLICA AQUI</a> </div>
-  </div>
-  <br>
-<div class="box">Montagem Santa Fé→<a href="https://mega.nz/file/2NFwgLAY#ZeTGv0_XyURMBRprwxPSkdaRmu5xEKCUzl5P6NzXQNE">CLICA AQUI</a> </div>
-</div>
-  <br><br> <br>  <br>  <br> <br> <br>   <br> <br> <br> <br>   <br> <br><br><br><br> <br><br> <br><br> <br> <br><br>
+
+  <main class="container">
+    <div class="box">Figa de Guiné→<a href="https://mega.nz/file/XF9hVZDY#NOFDEIyZc1emsGguqA1DpMXG7dq4lyIXIJjrvIx_p-I">Clica Aqui</a></div>
+    <div class="box">Animal-Pródigio And Suaríto→<a href="https://mega.nz/file/ORF3mDQD#NIoY7zmHPFZvWibN667ZqJyrUwnjXUACTODtWaLWbKk">Clica aqui</a></div>
+    <div class="box">Hit do Vpn trap→<a href="https://mega.nz/file/7cFHWS6Y#pQn0LXlW-LGOT8QrIqjHbLWm3N7iQnvrkkhgHWsGMwY">Clica Aqui</a></div>
+    <div class="box">Sad Funk→<a href="https://mega.nz/file/LIEQAQqT#Q9lD7Kwu69FKsjCQbzukHo0y3rZSfst5hS8faBhtAZw">CLICA AQUI</a></div>
+    <div class="box">Montagem Santa Fé→<a href="https://mega.nz/file/2NFwgLAY#ZeTGv0_XyURMBRprwxPSkdaRmu5xEKCUzl5P6NzXQNE">CLICA AQUI</a></div>
+    <!-- Removidas as divs extras e os excessos de <br> -->
+  </main>
   
-     <script>
-    function alternarModo() {
-      document.body.classList.toggle("dark-mode");
-    }
-  </script>
+  <!-- ... (restante do código) ... -->
+
     
-   <footer>
+    
+    
+   <!-- FOOTER -->
+  <footer>
     <div class="footer-container">
-      <p>&copy; 2026 Site MILTONTUBE - Todos os direitos reservados.</p>
+
+      <p>&copy; 2026 MILTONTUBE - Todos os direitos reservados.</p>
 
       <div class="footer-links">
-        <a href="index.html">Início</a>
-        <a href="LISTA-DE-VIDEOS-ENGRAÇADO.html">Vídeos Engraçados</a>
-        <a href="LISTA-DE-ANIMES.html">Animes</a>
-        
-        
+        <a href="mailto:cheffmilton54@gmail.com">G-mail</a>
+        <p>Contato: 997452915</p>
       </div>
 
       <div class="footer-social">
         <a href="https://www.facebook.com/profile.php?id=61585896428778">
-          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
         </a>
-        <a href="https://www.instagram.com/miltondeoliveira23?igsh=Nzl6Z2VzcXlnMm50">
-          <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+
+        <a href="https://www.instagram.com/miltondeoliveira23">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png">
         </a>
+
         <a href="https://www.youtube.com/@MiltonAdao-kc2zj">
-          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube">
-        </a>
-         
+          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png">
         </a>
       </div>
 
-      <p>Feito com ❤️ por Milton De Oliveira</p>
+      <p>Feito com ❤️ por <span class="span">Milton De Oliveira</span></p>
     </div>
   </footer>
+ 
+<script src="script.js"></script>
+  
+
 </body>
 
 
